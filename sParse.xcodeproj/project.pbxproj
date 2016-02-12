@@ -12,6 +12,7 @@
 		271529AC1C6D89D10029E171 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271529AA1C6D89D10029E171 /* Main.storyboard */; };
 		271529AE1C6D89D10029E171 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 271529AD1C6D89D10029E171 /* Assets.xcassets */; };
 		271529B11C6D89D10029E171 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 271529AF1C6D89D10029E171 /* LaunchScreen.storyboard */; };
+		278995BB1C6D93BE007D55A5 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278995BA1C6D93BE007D55A5 /* ChatViewController.swift */; };
 		FA27593FCFB6945E9BEE6DD0 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A2E9D27E37D064A59E419AC /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		271529AD1C6D89D10029E171 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		271529B01C6D89D10029E171 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		271529B21C6D89D10029E171 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		278995BA1C6D93BE007D55A5 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		CA43AFD8A5F09B373CEAF891 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +74,7 @@
 			children = (
 				271529A61C6D89D10029E171 /* AppDelegate.swift */,
 				271529A81C6D89D10029E171 /* ViewController.swift */,
+				278995BA1C6D93BE007D55A5 /* ChatViewController.swift */,
 				271529AA1C6D89D10029E171 /* Main.storyboard */,
 				271529AD1C6D89D10029E171 /* Assets.xcassets */,
 				271529AF1C6D89D10029E171 /* LaunchScreen.storyboard */,
@@ -211,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				271529A91C6D89D10029E171 /* ViewController.swift in Sources */,
+				278995BB1C6D93BE007D55A5 /* ChatViewController.swift in Sources */,
 				271529A71C6D89D10029E171 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
